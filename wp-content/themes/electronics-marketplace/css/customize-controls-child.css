@@ -1,0 +1,105 @@
+#customize-controls .control-section-electronics-marketplace .accordion-section-title:hover,
+#customize-controls .control-section-electronics-marketplace .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-electronics-marketplace .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-electronics-marketplace .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+  border: solid 1px #0073aa;
+  font-size: 14px;
+  font-weight: bold !important;
+}
+.customize-control-title {
+  font-size: 15px;
+  color: #0073aa;
+}
+/* ---------Important Link--------- */
+#customize-control-electronics_marketplace_doc_link span a,
+#customize-control-electronics_marketplace_demo_links span a,
+#customize-control-electronics_marketplace_forum_links span a {
+  display: block;
+  background-color: #6edcf5;
+  color: #0b3240;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 10px;
+  border: 2px solid #0b3240;
+  border-radius: 10px;
+  text-align: center;
+}
+#customize-control-electronics_marketplace_doc_link span a:hover,
+#customize-control-electronics_marketplace_demo_links span a:hover,
+#customize-control-electronics_marketplace_forum_links span a:hover {
+  background-color: #0b3240;
+  color: #fff;
+}
+#accordion-section-electronics_marketplace_important_links h3{
+  background-color: #0073aa !important;
+  color: #ffffff !important;
+  border-color: #0073aa !important;
+}
+#accordion-section-electronics_marketplace_important_links .accordion-section-title:after{
+  color: #ffffff !important;
+}
+/* Premium Features Css */
+#customize-control-electronics_marketplace_product_sec_premium_info, 
+#customize-control-electronics_marketplace_slider_premium_info,
+#customize-control-electronics_marketplace_global_color_info{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fafafa;
+  border: 1px solid #a9a1a1;
+  box-shadow: 0px 0px 12px #a9a1a1;
+  width: auto;
+  margin-bottom: 25px;
+}
+#customize-control-electronics_marketplace_product_sec_premium_info .customize-control-title,
+#customize-control-electronics_marketplace_slider_premium_info .customize-control-title,
+#customize-control-electronics_marketplace_global_color_info .customize-control-title{
+  font-size: 18px;
+  font-weight: 800;
+  color: #000000;
+  border-bottom: 1px dashed #000000;
+  margin-bottom: 15px;
+}
+#customize-control-electronics_marketplace_product_sec_premium_info ul,
+#customize-control-electronics_marketplace_slider_premium_info ul,
+#customize-control-electronics_marketplace_global_color_info ul{
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+#customize-control-electronics_marketplace_product_sec_premium_info ul li,
+#customize-control-electronics_marketplace_slider_premium_info ul li,
+#customize-control-electronics_marketplace_global_color_info ul li{
+  list-style: square;
+  font-style: normal;
+}
+#customize-control-electronics_marketplace_product_sec_premium_info a,
+#customize-control-electronics_marketplace_slider_premium_info a,
+#customize-control-electronics_marketplace_global_color_info a{
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+}
+#customize-control-electronics_marketplace_product_sec_premium_info a:hover,
+#customize-control-electronics_marketplace_slider_premium_info a:hover,
+#customize-control-electronics_marketplace_global_color_info a:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+}
